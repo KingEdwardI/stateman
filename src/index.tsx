@@ -1,6 +1,7 @@
-import * as React from 'react';
+import React, { ReactNode } from 'react';
 
-// Delete me
-export const Thing = () => {
+const StateMan = (): ReactNode => {
   return <div>the snozzberries taste like snozzberries</div>;
 };
+
+export default StateMan;
